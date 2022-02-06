@@ -11,14 +11,34 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Funcionario funcionario = new Funcionario();
+        Bird bird = new Bird();
+        bird.correr();
+        bird.fly();
+        bird.dormir();
+
+
+        Dog dog = new Dog();
+        dog.correr();
+        dog.bark();
+        dog.dormir();
+
+        dog.setCor("Branco");
+        System.out.println( dog.getCor() );
+
+//        Animals animals = new Animals();
+//        animals.correr();
+
+
+
+
+/*        Funcionario funcionario = new Funcionario();
         funcionario.nome = "Pedro Marangoni";
         funcionario.salario = 1200;
 
 //        funcionario.recuperarSalario();// Sem retorno void
         double salarioRecuperado = funcionario.recuperarSalario( 120, 20  );
         System.out.println("O Salário do Pedro e: " + salarioRecuperado );
-
+*/
 //        //int numero = 10;
 //        Casa minhaCasa = new Casa();
 //        minhaCasa.cor = "Cor azul";
