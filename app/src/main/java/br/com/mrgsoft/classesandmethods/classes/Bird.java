@@ -1,4 +1,4 @@
-package br.com.mrgsoft.classesandmethods;
+package br.com.mrgsoft.classesandmethods.classes;
 
 class Bird extends Animals {
 

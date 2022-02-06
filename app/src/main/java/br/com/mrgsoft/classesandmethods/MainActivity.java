@@ -1,8 +1,8 @@
 package br.com.mrgsoft.classesandmethods;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +11,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
+        Conta conta = new Conta();
+        conta.depositar(100);//valor neste momento de 200$
+        conta.sacar(50);//valor de saldo neste momento 150$
+
+//        conta.saldo = 0;//1.Classe privada não permite a recuperação dos dados
+
+        System.out.println( conta.recupearSaldo() );//Novo método criado para acessar dados
+        */
+
+
+
+        /*
         Bird bird = new Bird();
         bird.correr();
         bird.fly();
@@ -23,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         dog.dormir();
 
         dog.setCor("Branco");
-        System.out.println( dog.getCor() );
+        System.out.println( dog.getCor() );*/
 
 //        Animals animals = new Animals();
 //        animals.correr();

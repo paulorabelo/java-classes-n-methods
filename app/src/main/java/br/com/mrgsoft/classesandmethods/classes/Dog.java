@@ -1,6 +1,6 @@
-package br.com.mrgsoft.classesandmethods;
+package br.com.mrgsoft.classesandmethods.classes;
 
-import org.w3c.dom.ls.LSOutput;
+import br.com.mrgsoft.classesandmethods.classes.Animals;
 
 class Dog extends Animals {
 
