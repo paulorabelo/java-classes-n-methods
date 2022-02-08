@@ -11,10 +11,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        //Utilizando construtores
+        ContaBancaria conta = new ContaBancaria( 10001525 );
+
+
+
+        /*
         //Sobrecarga do método exibirDados é dada
         //de acordo com a entrada de dados.
         Pessoa pessoa = new Pessoa();
         pessoa.exibirDados("Paulo", 47);
+        */
 
 
         /*
