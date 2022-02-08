@@ -11,6 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Sobrecarga do método exibirDados é dada
+        //de acordo com a entrada de dados.
+        Pessoa pessoa = new Pessoa();
+        pessoa.exibirDados("Paulo", 47);
+
+
         /*
         Conta conta = new Conta();
         conta.depositar(100);//valor neste momento de 200$
