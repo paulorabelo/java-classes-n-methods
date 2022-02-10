@@ -12,8 +12,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        //Utilizando Interfaces
+        Obama obama = new Obama();
+        obama.direitosDeveres();
+
+
+        /*
         //Utilizando construtores
         ContaBancaria conta = new ContaBancaria( 10001525 );
+        */
 
 
 
